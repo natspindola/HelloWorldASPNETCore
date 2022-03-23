@@ -10,6 +10,7 @@ namespace HelloWorldASPNETCore.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.Mensagem = "Fui gerado pela ferramenta de scaffolding";
             return View();
         }
     }
